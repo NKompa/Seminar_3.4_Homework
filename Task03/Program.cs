@@ -8,7 +8,7 @@ void FillArray (int [] numbers)
     int index = 0;
     while(index<length)
     {
-        numbers[index] = new Random().Next(1,9);
+        numbers[index] = new Random().Next(1,35);
         index++;
     }
 }
